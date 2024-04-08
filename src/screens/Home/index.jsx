@@ -22,6 +22,13 @@ export default function Home() {
       >
         <Text>Category</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity
+        style={styles.btn}
+        onPress={() => navigation.navigate("Location")}
+      >
+        <Text>Location</Text>
+      </TouchableOpacity>
     </View>
   );
 }
